@@ -1,5 +1,6 @@
 # get_next_line_ebouabba
 ------------------Mandatory part - Get_next_line -----------------------------------
+
 • Calling your function get_next_line in a loop will then allow you to read the text
 available on the file descriptor one line at a time until the end of it.
 • Your function should return the line that has just been read. If there is nothing
@@ -38,6 +39,7 @@ a binary file. However, if you wish, you can make this behavior coherent.
 the end of file and there is no ’\n’.
 
 ----------------------Bonus part-------------------------------------------------
+  
 The project get_next_line is straightforward and leaves very little room for bonuses,
 but we are sure that you have a lot of imagination. If you have aced the mandatory part,
 then by all means, complete this bonus part to go further. Just to be clear, no bonuses
