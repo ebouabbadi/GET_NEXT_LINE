@@ -6,7 +6,7 @@
 /*   By: ebouabba <ebouabba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/05 19:54:36 by ebouabba          #+#    #+#             */
-/*   Updated: 2021/12/05 19:59:13 by ebouabba         ###   ########.fr       */
+/*   Updated: 2021/12/05 20:45:38 by ebouabba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ char	*ft_flash_var_bs(char *var_static)
 
 char	*get_next_line(int fd)
 {
-	char static	*var_static[6500];
+	char static	*var_static[10240];
 	char		*line;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)

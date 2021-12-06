@@ -3,19 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ebouabba <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ebouabba <ebouabba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 15:05:52 by ebouabba          #+#    #+#             */
-/*   Updated: 2021/12/05 19:05:29 by ebouabba         ###   ########.fr       */
+/*   Updated: 2021/12/05 21:51:26 by ebouabba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <fcntl.h>
 # include <stddef.h>
 
 char	*get_next_line(int fd);

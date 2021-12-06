@@ -3,20 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ebouabba <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ebouabba <ebouabba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/05 19:07:01 by ebouabba          #+#    #+#             */
-/*   Updated: 2021/12/05 19:07:07 by ebouabba         ###   ########.fr       */
+/*   Updated: 2021/12/05 21:53:00 by ebouabba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
-# include <stddef.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <fcntl.h>
+# include <stddef.h>
 
 char	*get_next_line(int fd);
 char	*ft_strjoin_bs(char *var_static, char *var);
